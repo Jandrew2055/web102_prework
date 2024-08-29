@@ -21,6 +21,20 @@ body {
 
 .stats-container {
     display: flex;
+    flex-direction: row;
+    align-items: left;
+    background-color: lightblue;
+}
+
+/* added this hover feature for prework  */
+.stats-container:hover{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+
 }
 
 .stats-card {
