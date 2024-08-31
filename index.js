@@ -212,9 +212,3 @@ firstGameContainer.appendChild(game1);
 let game2 = document.createElement('p');
 game2.innerHTML = `${secondGame}`;
 secondGameContainer.appendChild(game2);
-
-
-
-
-
-
